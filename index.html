@@ -61,7 +61,6 @@
   background-color: silver; /* Set background color to silver */
 }
 
-
 h2 {
       text-align: center;
       color: blue; /* Set color to a dark blue-ish shade */
@@ -145,7 +144,6 @@ header h2, h3, h4 {
   right: 100px;
   width: 130px;
 }
-
 
     </style>
     
@@ -239,8 +237,6 @@ header h2, h3, h4 {
 
 <span class="percentageRange1"><b id="percentageRange1"></b></span>
 
-
-
   <span class="range-name">-/- <button><b>(≥18)</b></button></span></span>
   <a id="totalRango18-18.5-19-19.5-20-20.5-21-21.5-22-22.5-23"></a>
 
@@ -258,7 +254,6 @@ header h2, h3, h4 {
         var btnClear = document.getElementById('btnClear');
         var totalElm = document.getElementById('totalClick');
         var formInputs = document.querySelectorAll('input[type="text"], textarea');
-        
         
         // Create objects to store counts and ranges
         var sizeCounts = {};
@@ -294,8 +289,6 @@ header h2, h3, h4 {
             }
         });
         
-        
-
         // Clear all counters and ranges
         btnClear.onclick = function() {
             sizeCounts = {};
@@ -310,10 +303,6 @@ header h2, h3, h4 {
             }
         };
         
-        
-
-
-
         function calculatePercentages() {
             const totalCount = parseInt(totalElm.textContent);
 
@@ -342,10 +331,6 @@ header h2, h3, h4 {
             calculatePercentages();
         };
 
-
-
-
-
 function limpiarFormulario() {
   // Recorrer todos los campos de entrada
   const inputs = document.querySelectorAll('input[type="text"]');
@@ -367,14 +352,6 @@ function limpiarFormulario() {
   }
 }
 
-
-
-
-
-
-
-
-
         function verificarContraseña() {
             const contraseña = window.prompt("Introduzca la contraseña:", "");
             if (contraseña === "InsopescaLaEsmeralda") {
@@ -388,8 +365,6 @@ function limpiarFormulario() {
             }
         }
         
-
-
 // Obtener el elemento del botón "Limpiar"
 const btnLimpiar = document.getElementById('btnLimpiar');
 
@@ -416,6 +391,25 @@ btnLimpiar.onclick = function() {
 };
 
     </script>
+
+<!-- Aviso de Derechos de Autor y Propiedad Intelectual
+© Insopesca El Morro
+
+Aunque este sitio web y su contenido aparecen bajo el nombre de © Insopesca El Morro con el objetivo de apoyar y representar a la inspectoría donde trabajo, declaro lo siguiente:
+
+Cláusula I: Propiedad del Código y Funcionalidad
+El código fuente, las funcionalidades, el diseño y toda la lógica subyacente de este sitio web han sido creados y desarrollados íntegramente por Emmanuel Manosalva. Todas las mejoras, modificaciones y adaptaciones futuras deberán ser autorizadas expresamente por su creador.
+
+Cláusula II: Prohibición de Modificación y Alteración
+Queda estrictamente prohibida la modificación, alteración, adaptación o reutilización del código fuente y la funcionalidad del sitio web sin el consentimiento previo y por escrito de Emmanuel Manosalva. Cualquier cambio no autorizado podrá ser considerado como una violación de los derechos de autor y será susceptible de acciones legales.
+
+Cláusula III: Uso Exclusivo y Autorización
+El uso de este sitio web y su código fuente es exclusivo bajo la autorización de Emmanuel Manosalva. En el caso de que el creador decida retirar su autorización, el uso de la herramienta deberá cesar inmediatamente. El incumplimiento de esta condición podría acarrear consecuencias legales.
+
+Cláusula IV: Prohibición de Copia y Plagio
+Queda expresamente prohibida la copia, distribución, plagio o reproducción total o parcial del código fuente y su funcionalidad sin la autorización expresa de Emmanuel Manosalva. Toda infracción a esta disposición será considerada como una violación de los derechos de autor y podrá ser perseguida conforme a la ley.
+
+Este aviso se aplica a todos los usuarios, administradores y terceros relacionados con el sitio web. -->
 
 </body>
 
